@@ -20,7 +20,7 @@ composer require "calebporzio/parental=0.9"
 // The "parent"
 class User extends Model
 {
-    //
+    use \Parental\HasChildren;
 }
 ```
 
